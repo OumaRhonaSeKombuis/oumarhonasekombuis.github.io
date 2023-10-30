@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://oumarhonasekombuis.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://oumarhonasekombuis.github.io/</loc>
+</url>
+<url>
+<loc>https://oumarhonasekombuis.github.io/blaarslaaisop/</loc>
+<lastmod>2023-10-30T17:35:15+02:00</lastmod>
+<image:image>
+<image:loc>https://oumarhonasekombuis.github.io/media/posts/1/Blaarslaaisop-2.jpeg</image:loc>
+<image:title><![CDATA[`n Bak blaarslaaisop met broodjies langs aan]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://oumarhonasekombuis.github.io/gemmer-frikkadelle/</loc>
+<lastmod>2023-10-30T18:30:30+02:00</lastmod>
+<image:image>
+<image:loc>https://oumarhonasekombuis.github.io/media/posts/3/Gemmer-Frikkadelle.jpg</image:loc>
+<image:title><![CDATA[Gemmer frikkadelle op `n bord]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://oumarhonasekombuis.github.io/korslose-souttert/</loc>
+<lastmod>2023-10-30T21:11:43+02:00</lastmod>
+<image:image>
+<image:loc>https://oumarhonasekombuis.github.io/media/posts/5/Korslose-Souttert.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://oumarhonasekombuis.github.io/pynappelkoek/</loc>
+<lastmod>2023-10-30T18:48:12+02:00</lastmod>
+<image:image>
+<image:loc>https://oumarhonasekombuis.github.io/media/posts/4/Pynappelkoek.jpeg</image:loc>
+<image:title><![CDATA[Pynappelkoek op `n bord langs `n pynappel]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://oumarhonasekombuis.github.io/room-en-kondensmelk-koek/</loc>
+<lastmod>2023-10-30T17:55:03+02:00</lastmod>
+<image:image>
+<image:loc>https://oumarhonasekombuis.github.io/media/posts/2/ROOM-EN-KONDENSMELK-KOEK.jpg</image:loc>
+<image:title><![CDATA[Room- en kondensmelk koek op `n bord]]></image:title>
+</image:image>
+</url>
+</urlset>

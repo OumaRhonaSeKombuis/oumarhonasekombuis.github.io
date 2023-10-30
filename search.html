@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="af"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search - Ouma Rhona se Kombuis</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><meta name="theme-color" content="#88E2B4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#007bff" media="(prefers-color-scheme: dark)"><meta name="msapplication-navbutton-color" content="#88E2B4"><meta name="apple-mobile-web-app-status-bar-style" content="#88E2B4"><link rel="alternate" type="application/atom+xml" href="https://oumarhonasekombuis.github.io/feed.xml"><link rel="alternate" type="application/json" href="https://oumarhonasekombuis.github.io/feed.json"><meta property="og:title" content="Ouma Rhona se Kombuis"><meta property="og:site_name" content="Ouma Rhona se Kombuis"><meta property="og:description" content=""><meta property="og:url" content="https://oumarhonasekombuis.github.io/"><meta property="og:type" content="website"><link rel="stylesheet" href="https://oumarhonasekombuis.github.io/assets/css/style.css?v=54ca0bfe8ee3e0ecfe54eed74e28a802"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Ouma Rhona se Kombuis","url":"https://oumarhonasekombuis.github.io/"}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body><header class="header" id="js-header"><a href="https://oumarhonasekombuis.github.io/" class="logo">Ouma Rhona se Kombuis</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li class="has-submenu"><a href="https://oumarhonasekombuis.github.io/tags/" target="_self" aria-haspopup="true">Resepte</a><ul class="navbar__submenu level-2" aria-hidden="true"><li class="has-submenu"><a href="https://oumarhonasekombuis.github.io/tags/vleis/" target="_self" aria-haspopup="true">Vleis</a><ul class="navbar__submenu level-3" aria-hidden="true"><li><a href="https://oumarhonasekombuis.github.io/tags/maalvleis/" target="_self">Maalvleis</a></li><li><a href="https://oumarhonasekombuis.github.io/tags/spek/" target="_self">Spek</a></li><li><a href="https://oumarhonasekombuis.github.io/tags/bees/" target="_self">Bees</a></li></ul></li><li class="has-submenu"><a href="https://oumarhonasekombuis.github.io/tags/terte/" target="_self" aria-haspopup="true">Terte</a><ul class="navbar__submenu level-3" aria-hidden="true"><li><a href="https://oumarhonasekombuis.github.io/tags/soutterte/" target="_self">Soutterte</a></li></ul></li><li><a href="https://oumarhonasekombuis.github.io/tags/sop/" target="_self">Sop</a></li><li><a href="https://oumarhonasekombuis.github.io/tags/groot-koeke/" target="_self">Groot Koeke</a></li></ul></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><form action="https://oumarhonasekombuis.github.io/search.html" class="search__form"><input class="search__input" type="search" name="q" placeholder="soek..." aria-label="soek..." autofocus required> <button type="submit" class="search__button"><span>Stuur</span></button></form></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false" height="18" width="18"><use xlink:href="https://oumarhonasekombuis.github.io/assets/svg/svg-map.svg#search"/></svg></button></div></header><main><div class="wrapper page page--search"><div class="hero"><h1>Search</h1></div><div class="post__inner"><form action="https://oumarhonasekombuis.github.io/search.html" class="search-page-form"><input type="search" name="q" placeholder="soek..." class="search-page-input" required> <button type="submit" class="search-page-button"><span>Stuur</span></button></form><div id="search-results"></div><script>(async function () {
+				console.log("./feed.json");
+				console.log("q");
+			  
+				let url = "./feed.json";
+				let response = await fetch(url);
+				let jsonData = await response.json();
+			  
+				const params = new URLSearchParams(window.location.search)
+				let searchTerm = params.get("q");
+				let results = [];
+			  
+				jsonData.items.forEach((item) => {
+				  let title = item.title.toLowerCase();
+				  let summary = item.summary.toLowerCase();
+				  let url = item.url;
+			  
+				  if (title.includes(searchTerm.toLowerCase()) || summary.includes(searchTerm.toLowerCase())) {
+					results.push(item);
+				  }
+				});
+			  
+				let elm = document.querySelector("#search-results");
+				if (results.length > 0) {
+				  results.forEach((result)=>{
+					console.log(result);
+					elm.innerHTML += '<h5><a href="'+ result.url +'">' + result.title + '</a></h5><p>' + result.summary + '</p>'
+				  });
+				} else {
+				  elm.innerHTML = '<p>No Results Found</p>';
+				}
+			  })();</script></div></div></main><footer class="footer"><nav><ul class="footer__nav"></ul></nav><div class="footer__copyright">Copyright &copy; 2023<br>Created by AquaTech Web Works<br>Powered by Publii<br></div></footer><script>window.publiiThemeMenuConfig = {    
+      mobileMenuMode: 'sidebar',
+      animationSpeed: 300,
+      submenuWidth: 'auto',
+      doubleClickTime: 500,
+      mobileMenuExpandableSubmenus: true, 
+      relatedContainerForOverlayMenuSelector: '.navbar',
+   };</script><script defer="defer" src="https://oumarhonasekombuis.github.io/assets/js/scripts.min.js?v=66112a161d5939d966ce2b20c13988d9"></script><script>var images = document.querySelectorAll('img[loading]');
+
+      for (var i = 0; i < images.length; i++) {
+         if (images[i].complete) {
+               images[i].classList.add('is-loaded');
+         } else {
+               images[i].addEventListener('load', function () {
+                  this.classList.add('is-loaded');
+               }, false);
+         }
+      }</script><script>document.addEventListener("copy",(function(t){t.preventDefault();var e=window.getSelection().toString()+"\n\n  Copyright © 2023 Ouma Rhona se Kombuis \n Search - Ouma Rhona se Kombuis \n https://oumarhonasekombuis.github.io/  Vind nog lekker resepte by Ouma Rhona se Kombuis";t.clipboardData.setData("text/plain",e)}))</script></body></html>
