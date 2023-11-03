@@ -3,7 +3,7 @@
     <title>Ouma Rhona se Kombuis</title>
     <link href="https://oumarhonasekombuis.github.io/feed.xml" rel="self" />
     <link href="https://oumarhonasekombuis.github.io" />
-    <updated>2023-11-03T12:32:25+02:00</updated>
+    <updated>2023-11-03T13:31:49+02:00</updated>
     <author>
         <name>Rhona Peens</name>
     </author>
@@ -16,18 +16,21 @@
         </author>
         <link href="https://oumarhonasekombuis.github.io/vegan-kaassous/"/>
         <id>https://oumarhonasekombuis.github.io/vegan-kaassous/</id>
+        <media:content url="https://oumarhonasekombuis.github.io/media/posts/23/VEGAN-KAASSOUS.jpg" medium="image" />
             <category term="Sout"/>
             <category term="Knoffel"/>
             <category term="Blomkool"/>
 
-        <updated>2023-11-03T12:32:25+02:00</updated>
+        <updated>2023-11-03T13:31:49+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://oumarhonasekombuis.github.io/media/posts/23/VEGAN-KAASSOUS.jpg" alt="" />
                     400 g blomkoolblommetjies 500 g botterskorsie, in stukke gesny 1 liter water 1 liter groenteaftreksel 15 ml olyfolie 10 knoffelhuisies,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://oumarhonasekombuis.github.io/media/posts/23/VEGAN-KAASSOUS.jpg" class="type:primaryImage" alt="" /></p>
                 <div class="xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a">
 <div dir="auto">400 g blomkoolblommetjies</div>
 <div dir="auto">500 g botterskorsie, in stukke gesny</div>
